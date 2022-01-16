@@ -1,0 +1,33 @@
+.editor-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: left;
+  padding: 10px;
+  margin-bottom: 15px;
+  color: goldenrod;
+  
+}
+.b{
+  font-weight: 800;
+}
+.i{
+  font-style: italic;
+}
+span p{
+  margin-left: 10px;
+  padding: 0 20px;
+  cursor: pointer;
+  
+}
+
+textarea{
+    background-color: rgb(49, 49, 49);
+    border: none;
+    border-radius: 2px;
+    width: 885px;
+    height: 770px;
+    outline: none;
+    color: white;
+    padding: 20px;
+}
+

@@ -1,0 +1,10 @@
+.selected {
+  background-color: rgb(40, 40, 40);
+  color: white;
+  border-radius: 3px;
+}
+.time{
+    font-size: 10px;
+    color: grey;
+    display: block;
+}

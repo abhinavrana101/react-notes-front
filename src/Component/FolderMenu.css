@@ -1,0 +1,63 @@
+.folder-menu{
+    background-color: rgb(24, 24, 24);
+    min-height: 788px;
+    padding: 10px;
+}
+.notes-menu{
+    background-color: rgb(22, 22, 22);
+    min-height: 788px;
+    padding: 10px;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
+h6{
+    color: rgb(185, 185, 185);
+}
+ul{
+    list-style: none;
+    padding-left: 0;
+    color: rgb(185, 185, 185);
+}
+span{
+    display: flex;
+    align-items: center;
+    
+}
+span i{
+   color: goldenrod;
+}
+footer{
+    display: flex;
+    font-size: 14px;
+    position: absolute;
+    bottom: 0px;
+    color: rgb(185, 185, 185);
+}
+footer:hover{
+    color: white;
+}
+span.selected{
+    background-color: goldenrod;
+    color: white;
+    border-radius: 4px;
+}
+span.selected i{
+    color: white;
+    
+}
+input{
+    border: none;
+    color : white;
+    outline: none;
+    background-color: rgb(24, 24, 24);
+}
+input:focus{
+    background-color: goldenrod;
+    border-radius: 5px;
+    color: white;
+}
+.small-icon{
+    font-size: 14px;
+    margin-right: 10px;
+    align-items: center;
+}
